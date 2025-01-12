@@ -1,4 +1,4 @@
-# Veckouppgift 1
+# Veckouppgift 1 (vecka 2)
 # Övning 1
 #https://github.com/Anette1974/Lesson1.git
 print ("ÖVNING 1")
