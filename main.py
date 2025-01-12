@@ -41,3 +41,19 @@ Tips: räkna ut rabatten med formeln: slut_pris = pris * rea_procent / 100.
 2b Gör om programmet så att användaren kan skriva in en procentsats.
 Testa genom att hitta på en procentsats och räkna ut vad programmet ska svara med, innan du kör det. Till exempel 10%, som är 200 kr. Då ska jackan kosta 2000 - 200 == 1800 kr.
 '''
+#Övning 3, 1a
+print ("\n""ÖVNING 3, 1a")
+heltal1Var = input("Skriv ett heltal: ")
+heltal1Int = int(heltal1Var)
+print ("Du skrev in heltalet: " +str(heltal1Int)) # Varför fungerar inte detta?? Svar, jag var tvungen att om vandla till sträng
+
+#Övning 3, 1b
+print ("\n""ÖVNING 3, 1b")
+heltal2Var = input("Skriv ett heltal till: ")
+heltal2Int = int(heltal2Var)
+print ("Ditt andra heltal var: " +str(heltal2Int))
+summaInt = heltal1Int+heltal2Int
+print ("Summan av dessa två heltal är: " +str(summaInt))
+
+#Övning 3, 2a
+print ("\n""ÖVNING 3, 2a")
