@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4e1dd55-0ac2-487e-9dc1-8454ab5ffded" name="Changes" comment="Övning 1 &amp; 2">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovning1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovning2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovning3_1a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovning3_1b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovning3_2a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovning3_2b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.AnetteTest01_01.executor": "Run",
+    "Python.Ovning1.executor": "Run",
+    "Python.Ovning2.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",

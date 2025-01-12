@@ -26,24 +26,24 @@ z = 200 - 100 / 2
 print("Hälften är: " + str(z))  # Konvertera z till sträng
 
 # Övning 3
-#Använda variabler och datatyper
+#Använda Striabler och datatyper
 
 #Övning 3, 1a
-# Använd input för att be användaren om ett heltal. Spara värdet i en variabel. Omvandla variabelns värde till ett heltal, och skriv ut det för att testa om du har gjort rätt.
+# Använd input för att be användaren om ett heltal. Spara värdet i en Striabel. Omvandla Striabelns värde till ett heltal, och skriv ut det för att testa om du har gjort rätt.
 #Kodexempel med input:
 #x = input("Fråga här")
 print ("\n""ÖVNING 3, 1a")
-heltal1Var = input("Skriv ett heltal: ")
-heltal1Int = int(heltal1Var)
-print ("Du skrev in heltalet: " +str(heltal1Int)) # Varför fungerar inte detta?? Svar, jag var tvungen att omvandla till sträng
+heltal1Str = input("Skriv ett heltal: ")
+heltal1Int = int(heltal1Str)
+print ("Du skrev in heltalet: " +str(heltal1Int)) # Strför fungerar inte detta?? SStr, jag Str tvungen att omvandla till sträng
 
 #Övning 3, 1b
 #Fråga användaren efter ett annat heltal. Skriv ut summan av talen, alltså tal1 + tal2.
 #Testa genom att hitta på två tal och räkna ut summan i huvudet. Kontrollera om programmet räknar rätt.
 print ("\n""ÖVNING 3, 1b")
-heltal2Var = input("Skriv ett heltal till: ")
-heltal2Int = int(heltal2Var)
-print ("Ditt andra heltal var: " +str(heltal2Int))
+heltal2Str = input("Skriv ett heltal till: ")
+heltal2Int = int(heltal2Str)
+print ("Ditt andra heltal Str: " +str(heltal2Int))
 summaInt = heltal1Int+heltal2Int
 print ("Summan av dessa två heltal är: " +str(summaInt))
 
@@ -58,12 +58,12 @@ print ("Priset för jackan efter rabatt är "+str(slut_pris) +" kronor")
 
 #Övning 3, 2b
 #2b Gör om programmet så att användaren kan skriva in en procentsats.
-#Testa genom att hitta på en procentsats och räkna ut vad programmet ska svara med, innan du kör det. Till exempel 10%, som är 200 kr. Då ska jackan kosta 2000 - 200 == 1800 kr.
+#Testa genom att hitta på en procentsats och räkna ut vad programmet ska sStra med, innan du kör det. Till exempel 10%, som är 200 kr. Då ska jackan kosta 2000 - 200 == 1800 kr.
 print ("\n""ÖVNING 3, 2b")
 pris2 = 2000
-RabattProcentVar = input("Vilken rabatt i procent är det på jackan? ")
-RabattProcentInt = int(RabattProcentVar)
-print ("Du angav rabatten: " +str(RabattProcentVar) +"%")
+RabattProcentStr = input("Vilken rabatt i procent är det på jackan? ")
+RabattProcentInt = int(RabattProcentStr)
+print ("Du angav rabatten: " +str(RabattProcentStr) +"%")
 RabattKronor = pris2 * RabattProcentInt/100
 slutPrisKronor = pris2 - RabattKronor
 print ("Priset för jacka nummer 2 efter rabatt är "+str(slutPrisKronor) +" kronor")
