@@ -3,10 +3,10 @@
 #Testa genom att hitta på en procentsats och räkna ut vad programmet ska svara med, innan du kör det. Till exempel 10%, som är 200 kr. Då ska jackan kosta 2000 - 200 == 1800 kr.
 print ("\n""ÖVNING 3, 2b")
 pris2 = 2000
-RabattProcentStr = input("Vilken rabatt i procent är det på jackan? ")
+RabattProcentStr = input("Ange rabatten i procent på jackan: ")
 RabattProcentInt = int(RabattProcentStr)
 print ("Du angav rabatten: " +str(RabattProcentStr) +"%")
 RabattKronor = pris2 * RabattProcentInt/100
 slutPrisKronor = pris2 - RabattKronor
 #print ("Priset för jacka nummer 2 efter rabatt är "+str(slutPrisKronor) +" kronor")
-print (f"Priset för jacka nummer 2 efter rabatten {RabattProcentInt}% är {slutPrisKronor:.0f} kronor")
+print (f"Priset för jacka nummer 2 efter rabatten på {RabattProcentInt}% är {slutPrisKronor:.0f} kronor")

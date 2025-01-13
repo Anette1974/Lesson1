@@ -3,7 +3,7 @@
 #Kodexempel med input:
 #x = input("Fråga här")
 print ("\n""ÖVNING 3, 1a")
-heltal1Str = input("Skriv ett heltal: ")
+heltal1Str = input("Skriv in ett heltal: ")
 heltal1Int = int(heltal1Str)
 print ("Du skrev in heltalet: " +str(heltal1Int)) # Varför fungerar inte detta?? Svar, jag var tvungen att omvandla till sträng
 

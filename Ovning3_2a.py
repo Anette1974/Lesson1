@@ -5,4 +5,4 @@ print ("\n""ÖVNING 3, 2a")
 pris = 2000
 rea_procent = 50
 slut_pris = pris * rea_procent / 100
-print ("Priset för jackan efter rabatt är "+str(slut_pris) +" kronor")
+print ("Priset för jackan efter rabatt är "+str(slut_pris) +" kr")

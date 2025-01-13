@@ -13,5 +13,5 @@ print ("ÖVNING 2")
 biljettpris = 100  # biljettpris
 kontanter = 200  # pengar på fickan
 print("Det blir " + str(kontanter - biljettpris) + " kronor över.")  # Konvertera resultatet till sträng
-z = 200 - 100 / 2
-print("Hälften är: " + str(z))  # Konvertera z till sträng
+halva = (200 - 100) / 2
+print("Hälften av detta är: " + str(halva))  # Konvertera z till sträng
